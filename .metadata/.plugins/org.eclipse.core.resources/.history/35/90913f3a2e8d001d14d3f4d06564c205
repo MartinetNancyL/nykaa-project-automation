@@ -1,0 +1,41 @@
+package com.Selenium;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Frame_Class14 {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\Nancy Lawrence\\JavaTraining\\Selenium\\Drivers\\chromedriver.exe");
+		WebDriver driver= new ChromeDriver();
+		driver.get("https://demo.automationtesting.in/Frames.html");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		//single frame- switch to Frame by name
+		driver.switchTo().frame("SingleFrame");//target locator
+		//enter values in element inside Single Frame
+		driver.findElement(By.xpath("//input[@type='text']")).sendKeys("Single_Frame");
+		//quit from Frame and move to default content 
+		driver.switchTo().parentFrame();//since single frame, parent frame will be default content 
+		
+		//click on the element to get Nested Frame
+		driver.findElement(By.linkText("Iframe with in an Iframe")).click();
+		//Nested Frames- switch to ParentFrame by WebElement
+		WebElement ParentFrame = driver.findElement(By.xpath("//iframe[@src='MultipleFrames.html']"));
+		driver.switchTo().frame(ParentFrame);
+		//Nested Frame- switch to subFrame by index
+		WebElement SubFrame = driver.findElement(By.xpath("//iframe[@src='SingleFrames.html']"));
+		driver.switchTo().frame(SubFrame);
+		driver.findElement(By.xpath("//input[@type='text']")).sendKeys("Nested_Frames");
+		//quit from Nested Frames to default content
+		driver.switchTo().defaultContent();
+		System.out.println("DONE");
+			
+	}
+
+}

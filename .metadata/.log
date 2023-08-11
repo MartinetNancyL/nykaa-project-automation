@@ -1,0 +1,1419 @@
+!SESSION 2023-03-10 22:27:15.493 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+This is a continuation of log file C:\Users\Nancy Lawrence\JavaTraining\.metadata\.bak_0.log
+Created Time: 2023-03-10 23:35:36.945
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2023-03-10 23:35:36.946
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Core Exception [code 273] Problems encountered while deleting resources.
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:52)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: Could not delete 'C:\Users\Nancy Lawrence\Downloads\Demo_Maven_Project\Drivers\delete'.
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:141)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:316)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:802)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1798)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:771)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: Could not delete: C:\Users\Nancy Lawrence\Downloads\Demo_Maven_Project\Drivers\delete.
+java.nio.file.AccessDeniedException: C:\Users\Nancy Lawrence\Downloads\Demo_Maven_Project\Drivers\delete
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:222)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:139)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:316)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:802)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1798)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:771)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:784)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: Could not delete 'C:\Users\Nancy Lawrence\Downloads\Demo_Maven_Project\Drivers\delete'.
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:141)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:316)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:802)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1798)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:771)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: Could not delete: C:\Users\Nancy Lawrence\Downloads\Demo_Maven_Project\Drivers\delete.
+java.nio.file.AccessDeniedException: C:\Users\Nancy Lawrence\Downloads\Demo_Maven_Project\Drivers\delete
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:222)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:139)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:316)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:802)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1798)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:771)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2023-03-10 23:35:36.946
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2023-03-10 23:35:36.946
+!MESSAGE Could not delete 'C:\Users\Nancy Lawrence\Downloads\Demo_Maven_Project\Drivers\delete'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:141)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:316)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:802)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1798)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:771)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: Could not delete: C:\Users\Nancy Lawrence\Downloads\Demo_Maven_Project\Drivers\delete.
+java.nio.file.AccessDeniedException: C:\Users\Nancy Lawrence\Downloads\Demo_Maven_Project\Drivers\delete
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:222)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:139)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:316)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:802)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1798)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:771)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2023-03-10 23:35:36.946
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2023-03-10 23:35:36.946
+!MESSAGE Could not delete: C:\Users\Nancy Lawrence\Downloads\Demo_Maven_Project\Drivers\delete.
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\Nancy Lawrence\Downloads\Demo_Maven_Project\Drivers\delete
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:222)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:139)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:316)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFile(ResourceTree.java:802)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1798)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:771)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:163)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5929)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-03-10 23:40:38.978
+!MESSAGE Could not get hover region due to timeout after 500 miliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:152)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:212)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SESSION 2023-03-11 11:15:18.966 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-03-11 11:15:38.629
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-11 11:15:38.629
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-11 11:15:38.629
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-03-11 11:15:43.985
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nancy Lawrence'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-03-11 13:09:42.774 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-03-11 13:09:59.510
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-11 13:09:59.510
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-11 13:09:59.510
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-03-11 13:10:04.643
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nancy Lawrence'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-03-11 14:50:41.597 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-03-11 14:50:48.059
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-11 14:50:48.059
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-11 14:50:48.059
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-03-11 14:50:52.404
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nancy Lawrence'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-03-11 15:14:08.968 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-03-11 15:14:15.329
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-11 15:14:15.329
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-11 15:14:15.329
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-03-11 15:14:19.588
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nancy Lawrence'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-03-11 15:43:58.670 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-03-11 15:44:04.995
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-11 15:44:04.995
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-11 15:44:04.995
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-03-11 15:44:09.463
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nancy Lawrence'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-03-11 16:08:24.412 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-03-11 16:08:30.682
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-11 16:08:30.682
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-11 16:08:30.682
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-03-11 16:08:35.055
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nancy Lawrence'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-03-11 16:43:03.847 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-03-11 16:43:23.389
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-11 16:43:23.389
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-11 16:43:23.389
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-03-11 16:43:28.584
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nancy Lawrence'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-03-11 23:08:34.080 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-03-11 23:08:51.839
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-11 23:08:51.839
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-11 23:08:51.839
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-03-11 23:08:56.766
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nancy Lawrence'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-03-12 13:39:49.232 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-03-12 13:40:05.191
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-12 13:40:05.191
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-12 13:40:05.191
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-03-12 13:40:10.498
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nancy Lawrence'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2023-03-12 16:05:18.361
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-12 16:05:18.361
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.format,Format,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.format"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(cucumber.eclipse.editor.formmater.pretty_formatter,Pretty format feature file,
+		Format,
+		Category(cucumber.eclipse.editor.formmtter,Formatter,null,true),
+		WorkbenchHandlerServiceHandler("cucumber.eclipse.editor.formmater.pretty_formatter"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	cucumber.eclipse.editor.featureEditorScope,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-03-12 19:15:09.406
+!MESSAGE Could not get hover region due to timeout after 500 miliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:152)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:212)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-03-12 19:15:09.908
+!MESSAGE Could not get hover information due to timeout after 500 miliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:73)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-03-12 19:15:43.786
+!MESSAGE Could not get hover region due to timeout after 500 miliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:152)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:212)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4068)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SESSION 2023-03-13 08:40:38.937 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-03-13 08:40:53.907
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-13 08:40:53.907
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-13 08:40:53.907
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-03-13 08:40:58.880
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nancy Lawrence'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2023-03-13 08:41:44.781
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-13 08:41:44.781
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.format,Format,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.format"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(cucumber.eclipse.editor.formmater.pretty_formatter,Pretty format feature file,
+		Format,
+		Category(cucumber.eclipse.editor.formmtter,Formatter,null,true),
+		WorkbenchHandlerServiceHandler("cucumber.eclipse.editor.formmater.pretty_formatter"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	cucumber.eclipse.editor.featureEditorScope,,,system)
+!SESSION 2023-03-13 16:21:25.292 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-03-13 16:21:42.769
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-13 16:21:42.769
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-13 16:21:42.769
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-03-13 16:21:46.499
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nancy Lawrence'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2023-03-13 16:29:51.651
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-13 16:29:51.651
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.format,Format,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.format"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(cucumber.eclipse.editor.formmater.pretty_formatter,Pretty format feature file,
+		Format,
+		Category(cucumber.eclipse.editor.formmtter,Formatter,null,true),
+		WorkbenchHandlerServiceHandler("cucumber.eclipse.editor.formmater.pretty_formatter"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	cucumber.eclipse.editor.featureEditorScope,,,system)
+!SESSION 2023-07-14 16:37:19.404 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-14 16:37:26.309
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2023-07-14 16:37:40.521
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-14 16:37:40.521
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-14 16:37:40.521
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-07-14 16:37:51.163
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nancy Lawrence'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2023-07-14 16:52:05.799
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-14 16:52:05.799
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.format,Format,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.format"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(cucumber.eclipse.editor.formmater.pretty_formatter,Pretty format feature file,
+		Format,
+		Category(cucumber.eclipse.editor.formmtter,Formatter,null,true),
+		WorkbenchHandlerServiceHandler("cucumber.eclipse.editor.formmater.pretty_formatter"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	cucumber.eclipse.editor.featureEditorScope,,,system)
+!SESSION 2023-07-15 14:55:15.590 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-07-15 14:55:32.517
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-15 14:55:32.517
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-15 14:55:32.517
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-07-15 14:55:37.524
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nancy Lawrence'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-07-27 16:58:00.302 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-07-27 16:58:23.057
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-27 16:58:23.057
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-27 16:58:23.057
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-07-27 16:58:28.859
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nancy Lawrence'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2023-07-27 16:58:45.758
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-27 16:58:45.758
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.format,Format,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.format"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(cucumber.eclipse.editor.formmater.pretty_formatter,Pretty format feature file,
+		Format,
+		Category(cucumber.eclipse.editor.formmtter,Formatter,null,true),
+		WorkbenchHandlerServiceHandler("cucumber.eclipse.editor.formmater.pretty_formatter"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	cucumber.eclipse.editor.featureEditorScope,,,system)
+!SESSION 2023-08-11 12:27:13.296 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-08-11 12:27:34.561
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-11 12:27:34.561
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-11 12:27:34.561
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-11 12:27:40.095
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nancy Lawrence'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2023-08-11 12:29:21.908
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-11 12:29:21.908
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.format,Format,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.format"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(cucumber.eclipse.editor.formmater.pretty_formatter,Pretty format feature file,
+		Format,
+		Category(cucumber.eclipse.editor.formmtter,Formatter,null,true),
+		WorkbenchHandlerServiceHandler("cucumber.eclipse.editor.formmater.pretty_formatter"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	cucumber.eclipse.editor.featureEditorScope,,,system)
